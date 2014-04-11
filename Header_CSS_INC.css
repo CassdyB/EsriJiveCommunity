@@ -1,13 +1,4 @@
-<div id="buildMegaMenu"></div>
-<div id="esri-header">
-     <div id="e-header">
-<!-- <h1 id="esri-title">Communities</h1> -->
-</div>
-<div id="e-nav-background"></div>
-</div>
 
-
-<style>
 body {
 	width: 100% !important;
 }
@@ -68,6 +59,10 @@ color: #fff !important;
 box-shadow: 0 0 0 rgba(0,0,0,.0) !important;
 margin: 0 0 0 0 !important;
 border:none !important;
+}
+
+#header-search #submit {
+background-color: transparent !important;
 }
 
 
@@ -211,5 +206,3 @@ text-shadow: none!important;
 -moz-box-shadow: !important;
 box-shadow: none!important;
 }
-
-</style>

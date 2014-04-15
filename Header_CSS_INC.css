@@ -228,7 +228,7 @@ ul .j-nav-create .j-globalNavLink:active span.nav-link, ul .j-nav-create .j-glob
 }
 
 
-ul.j-globalNav > li.j-globalNav-li.j-nav-create a.j-globalNavLink:active, ul.j-globalNav > li.j-globalNav-li.j-nav-create a.j-globalNavLink.active {
+ul.j-globalNav a:active, ul.j-globalNav a.active {
 	background: none !important;
 }
 
@@ -241,7 +241,7 @@ div.j-pop {
 padding: 0px !important;
 box-shadow: none !important;
 border: none !important;
-background: #6c6c6c !important;
+background: none !important;
 }
 
 #j-satNav-menu {
@@ -264,5 +264,11 @@ display: none;
 #j-pbj-act
 {
 display: none;
+}
+
+.j-placeName 
+{
+text-shadow:none !important;
+font-weight: 100;
 }
 

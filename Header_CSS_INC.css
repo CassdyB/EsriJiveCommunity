@@ -4,7 +4,7 @@ body {
 }
 
 li.j-globalNav-li {
-	height: 45px !important;
+	height: 44px !important;
 
 }
 
@@ -13,7 +13,7 @@ li.j-globalNav-li {
 	width: 960px !important;
 	margin: 0 auto !important;
 	position: relative !important;
-	top: -45px !important;
+	top: -44px !important;
 	background: rgba(255, 255, 255, .0) !important;
 }
 
@@ -59,10 +59,6 @@ color: #fff !important;
 box-shadow: 0 0 0 rgba(0,0,0,.0) !important;
 margin: 0 0 0 0 !important;
 border:none !important;
-}
-
-#header-search #submit {
-background-color: transparent !important;
 }
 
 
@@ -149,7 +145,7 @@ padding-bottom: 0px !important;
 /* buttons  */
 
 button.j-btn-callout, input[type="button"].j-btn-callout, input[type="reset"].j-btn-callout, input[type="submit"].j-btn-callout, .j-btn-callout, button.j-btn-callout:hover, .j-btn-callout:hover, button {
-background: #f36f20 !important;
+background: #f89927 !important;
 background: -moz-linear-gradient() !important;
 background: -webkit-linear-gradient() !important;
 background: -o-linear-gradient() !important;
@@ -170,18 +166,18 @@ box-shadow: 0 0px 0px rgba(0,0,0,.0);
 
 button.j-btn-callout:hover, .j-btn-callout:hover
 {
-background:#C95612 !important;
+background:#f36f20!important;
 }
 
 button
 {
-background:blue!important;
+background: #007ac2 !important;
 }
 
-
+  
 button:hover
 {
-background:yellow !important;
+background:#004575 !important;
 }
 
 button[disabled]:hover, button[disabled]:focus, input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus
@@ -205,4 +201,22 @@ text-shadow: none!important;
 -webkit-box-shadow: !important;
 -moz-box-shadow: !important;
 box-shadow: none!important;
+}
+
+#header-search #submit {
+background-color: transparent !important;
+background-image: url('https://webapps-cdn.esri.com/Apps/MegaMenu/img/mega-menu-search-btn.png') !important;
+height: 15px !important;
+width: 16px !important;
+margin: 5px !important;
+}
+
+
+#jive-nav-link-apps
+{display: none;}
+
+.j-create-icon {
+
+top: 8px !important;
+
 }

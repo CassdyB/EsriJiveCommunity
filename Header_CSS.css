@@ -1,12 +1,14 @@
 #esri-header {
 height: 175px;
-background: url('https://cloud.githubusercontent.com/assets/4120376/2662569/ab9cc4a8-c040-11e3-9da8-6b50ecc435b0.jpg') top center;
+background: url('https://cloud.githubusercontent.com/assets/4120376/2713568/dfc92e04-c4e8-11e3-981e-c5c054499aa5.png') top center;
 }
 
 #esri-title {
 font-size: 40px;
 font-weight: 300;
-color: #DA4D1E;
+color: #fff;
+font-family: 'Avenir LT W01 35 Light', Arial, Helvetica, sans-serif !important;
+
 }
 
 #e-header {
@@ -20,5 +22,5 @@ padding-top: 30px;
  width: 100%;
  position: relative;
  background: rgba(255, 255, 255, .9);
- top:101px;
+ top:51px;
 }

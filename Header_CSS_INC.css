@@ -272,3 +272,9 @@ text-shadow:none !important;
 font-weight: 100;
 }
 
+
+div.j-pop-main 
+{
+
+border: 1px solid #ccc !important;
+}

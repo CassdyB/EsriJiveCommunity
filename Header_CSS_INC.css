@@ -145,7 +145,8 @@ padding-bottom: 0px !important;
 
 /* buttons  */
 
-input[type="reset"],input[type="submit"], #open-copy, #reset-defaults
+
+input[type="reset"],input[type="submit"], #open-copy, #reset-defaults, #draftButton, input[type="submit"].j-btn-global
 {
 background: white !important;
 background: -moz-linear-gradient() !important;
@@ -169,6 +170,18 @@ border: 1px solid #ccc!important;
 }
 
 
+ #open-copy, #reset-defaults, input[type="reset"], input[type="submit"]
+ {
+color: #777 !important;
+
+ }
+
+  #open-copy:hover, #reset-defaults:hover, input[type="reset"]:hover, input[type="submit"]:hover
+ {
+color: #007ac2 !important;
+
+ }
+
 
 button.j-btn-callout, input[type="button"].j-btn-callout, input[type="reset"].j-btn-callout, input[type="submit"].j-btn-callout, .j-btn-callout
 {
@@ -178,7 +191,7 @@ background: -webkit-linear-gradient() !important;
 background: -o-linear-gradient() !important;
 background: -ms-linear-gradient() !important;
 background: linear-gradient() !important;
-color: #fff;
+color: #fff!important;
 font-weight: 300;
 text-shadow: none !important;
 -webkit-box-shadow:  !important;

@@ -170,12 +170,6 @@ border: 1px solid #ccc!important;
 }
 
 
- /*#open-copy, #reset-defaults, input[type="reset"], input[type="submit"], #draftButton, button.j-btn-global
- {
-color: #777 !important;
-
- }*/
-
   #open-copy:hover, #reset-defaults:hover, input[type="reset"]:hover, input[type="submit"]:hover, #draftButton:hover, button.j-btn-global:hover
  {
 color: #007ac2 !important;

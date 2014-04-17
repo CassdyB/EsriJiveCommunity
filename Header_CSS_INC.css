@@ -146,7 +146,7 @@ padding-bottom: 0px !important;
 /* buttons  */
 
 
-input[type="reset"],input[type="submit"], #open-copy, #reset-defaults, #draftButton, .j-btn-global
+input[type="reset"],input[type="submit"], #open-copy, #reset-defaults, #draftButton, button.j-btn-global
 {
 background: white !important;
 background: -moz-linear-gradient() !important;

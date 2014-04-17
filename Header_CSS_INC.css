@@ -146,7 +146,7 @@ padding-bottom: 0px !important;
 /* buttons  */
 
 
-input[type="reset"],input[type="submit"], #open-copy, #reset-defaults, #draftButton, button.j-btn-global
+input[type="reset"],input[type="submit"], #open-copy, #reset-defaults, #draftButton, button.j-btn-global, #jive-description, #jive-widgetprops-cancel_2408
 {
 background: white !important;
 background: -moz-linear-gradient() !important;
@@ -170,7 +170,7 @@ border: 1px solid #ccc!important;
 }
 
 
-  #open-copy:hover, #reset-defaults:hover, input[type="reset"]:hover, input[type="submit"]:hover, #draftButton:hover, button.j-btn-global:hover
+  #open-copy:hover, #reset-defaults:hover, input[type="reset"]:hover, input[type="submit"]:hover, #draftButton:hover, button.j-btn-global:hover , #jive-widgetprops-cancel_2408:hover,  #jive-description:hover
  {
 color: #007ac2 !important;
 

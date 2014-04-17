@@ -154,7 +154,7 @@ background: -webkit-linear-gradient() !important;
 background: -o-linear-gradient() !important;
 background: -ms-linear-gradient() !important;
 background: linear-gradient() !important;
-color: #007ec2;
+color: #777;
 font-weight: 300;
 text-shadow: none !important;
 -webkit-box-shadow:  !important;
@@ -170,13 +170,13 @@ border: 1px solid #ccc!important;
 }
 
 
- #open-copy, #reset-defaults, input[type="reset"], input[type="submit"]
+ /*#open-copy, #reset-defaults, input[type="reset"], input[type="submit"], #draftButton, button.j-btn-global
  {
 color: #777 !important;
 
- }
+ }*/
 
-  #open-copy:hover, #reset-defaults:hover, input[type="reset"]:hover, input[type="submit"]:hover
+  #open-copy:hover, #reset-defaults:hover, input[type="reset"]:hover, input[type="submit"]:hover, #draftButton:hover, button.j-btn-global:hover
  {
 color: #007ac2 !important;
 

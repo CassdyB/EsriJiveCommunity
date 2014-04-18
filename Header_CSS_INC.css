@@ -41,6 +41,7 @@ li.j-globalNav-li.active {
 
 #j-main {
 	width: 960px !important;
+	z-index: 0 !important;
 }
 
 .j-page-header .j-place-header-overlay {

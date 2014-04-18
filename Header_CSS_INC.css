@@ -9,6 +9,10 @@ li.j-globalNav-li {
 
 }
 
+#j-compact-header 
+{
+z-index: 1 !important;
+}
 
 #j-globalNav-bg {
 	width: 960px !important;

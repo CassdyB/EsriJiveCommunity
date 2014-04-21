@@ -382,3 +382,8 @@ padding-bottom:  0px !important;
 text-shadow:none !important;
 }
 
+.j-status-input-cancel {
+background: none !important; 
+box-shadow: none !important; 
+border: none !important; 
+}

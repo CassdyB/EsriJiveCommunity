@@ -13,7 +13,7 @@ li.j-globalNav-li {
 {
 z-index: 1 !important;
 background: transparent !important;
-}
+
 }
 
 #j-globalNav-bg {
@@ -52,7 +52,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-background: none !Important;
+background: none !important;
 z-index: 2;
 }
 

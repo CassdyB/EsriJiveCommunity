@@ -387,7 +387,7 @@ padding-bottom:  0px !important;
 text-shadow:none !important;
 }
 
-.j-status-input-cancel {
+.j-status-input-cancel, .j-panel-hide-rte-link {
 background: none !important; 
 box-shadow: none !important; 
 border: none !important; 

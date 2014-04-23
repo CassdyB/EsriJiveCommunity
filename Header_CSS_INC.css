@@ -45,7 +45,6 @@ li.j-globalNav-li.active {
 	width: 960px !important;
 	z-index: 0 !important;
 	padding: 0px 0 !important;
-	margin-top: -40px;
 }
 
 .j-page-header .j-place-header-overlay {
@@ -423,9 +422,9 @@ width: 298px !important;
   
 
 #homecta-full h2 {
-font-family: 'Antenna Cond Black', AntennaCondBlack, Arial, sans-serif;
+font-family:  Arial, sans-serif,'Antenna Cond Black', AntennaCondBlack,;
 font-size: 20px;
-font-weight: normal;
+font-weight: bold;
 text-transform: uppercase;
 margin-bottom: 7px;
 }
@@ -447,7 +446,7 @@ margin: 6px 0 0 20px;
 
 #homecta-full .cta a {
 color: #fff;
-font-family: 'Antenna', Arial, sans-serif;
+font-family: , Arial, sans-serif, 'Antenna';
 text-transform: uppercase;
 text-decoration: none;
 }

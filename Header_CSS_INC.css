@@ -44,6 +44,8 @@ li.j-globalNav-li.active {
 #j-main {
 	width: 960px !important;
 	z-index: 0 !important;
+	padding: 0px 0 !important;
+	margin-top: -40px;
 }
 
 .j-page-header .j-place-header-overlay {
@@ -139,11 +141,6 @@ top: 220px;
 .j-placeNav {
 
 background-color: rgba(0,0,0,.5) !important;
-}
-
-
-#j-main {
-padding: 0px 0 !important;
 }
 
 #j-header-wrap {

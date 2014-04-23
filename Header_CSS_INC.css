@@ -459,3 +459,6 @@ box-sizing: border-box;
 -moz-box-sizing: border-box;
 }
 
+.j-body-home #jive-alert {
+	margin-top: 0 !important;
+}

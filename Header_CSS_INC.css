@@ -406,6 +406,10 @@ border: none !important;
   height: 206px;
   -moz-box-sizing: border-box;
   }
+
+  div.cta.re_box1 {
+padding-left: 0px !important;
+}
   
   #homecta-full .bg-color1 {
   background: #f89838;

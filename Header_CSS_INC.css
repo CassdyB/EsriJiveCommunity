@@ -399,7 +399,7 @@ border: none !important;
   width: 30%;
   margin-left: 30px;
   box-sizing: border-box;
-  height: 206px;
+  height: 226px;
   -moz-box-sizing: border-box;
   }
 
@@ -423,7 +423,7 @@ width: 298px !important;
 
 #homecta-full h2 {
 font-family:  Arial, sans-serif,'Antenna Cond Black', AntennaCondBlack,;
-font-size: 20px;
+font-size: 18px;
 font-weight: bold;
 text-transform: uppercase;
 margin-bottom: 20px;
@@ -447,7 +447,6 @@ margin: 6px 0 0 20px;
 #homecta-full .cta a {
 color: #fff;
 font-family: , Arial, sans-serif, 'Antenna';
-text-transform: uppercase;
 text-decoration: none;
 }
 

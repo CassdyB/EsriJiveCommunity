@@ -399,7 +399,11 @@ border: none !important;
   width: 30%;
   margin-left: 30px;
   box-sizing: border-box;
+<<<<<<< HEAD
   height: 226px;
+=======
+  height: 235px;
+>>>>>>> FETCH_HEAD
   -moz-box-sizing: border-box;
   }
 
@@ -409,7 +413,7 @@ width: 298px !important;
 }
   
   #homecta-full .bg-color1 {
-  background: #2c3639;
+  background: #324251;
   }
 
     #homecta-full .bg-color2 {
@@ -458,3 +462,6 @@ box-sizing: border-box;
 -moz-box-sizing: border-box;
 }
 
+.j-body-home #jive-alert {
+	margin-top: 0 !important;
+}

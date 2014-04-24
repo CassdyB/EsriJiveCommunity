@@ -399,12 +399,9 @@ border: none !important;
   width: 30%;
   margin-left: 30px;
   box-sizing: border-box;
-<<<<<<< HEAD
-  height: 226px;
-=======
   height: 235px;
->>>>>>> FETCH_HEAD
   -moz-box-sizing: border-box;
+  margin-bottom: 40px;
   }
 
   div.cta.re_box1 {

@@ -85,6 +85,7 @@ ul .j-nav-create .j-globalNavLink.active span.nav-link {
 
 
 
+
 /* Jive Body Content - Header */
 .j-page-header .j-place-header-overlay {
 	background: none !important;
@@ -197,6 +198,7 @@ button.j-btn-global,
 #jive-description, 
 #jive-widgetprops-cancel_2408,
 button.close.j-btn-global,
+.j-form-row #close,
 input.close.j-button {
 	background: white !important;
 	border: 1px solid #ccc !important;
@@ -211,7 +213,7 @@ input.close.j-button {
 button.j-btn-callout,
 button[type="button"].j-btn-callout, 
 input[type="button"].j-btn-callout, 
-input[type="reset"].j-btn-callout, 
+input[type="reset"].j-btn-callout,
 input[type="submit"].j-btn-callout {
 	background: #f89927 !important;
 	color: #fff !important;
@@ -245,6 +247,8 @@ input[type="submit"]:hover,
 #jive-description:hover,
 button.close.j-btn-global:hover,
 input.close.j-button:hover,
+.j-form-row #close:hover,
+.j-pop-row .close:hover,
 #js-about-apply-browse:hover {
 	color: #007ac2 !important;
 }
@@ -382,8 +386,17 @@ div.j-pop-main {
 	text-shadow:none !important;
 }
 
+/* Tags and Tag */
+li.j-tags,
+li.j-tag {
+	background: #ddd !important;
+}
 
-
+li.j-tags:hover,
+li.j-tag:hover{
+	background: #c00 !important;
+	color: #fff !important;
+}
 
 
 /* Space page design */

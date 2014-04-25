@@ -149,6 +149,7 @@ ul .j-nav-create .j-globalNavLink.active span.nav-link {
 
 #j-header-wrap {
 	padding-bottom: 0px !important;
+	height: auto;
 }
 
 

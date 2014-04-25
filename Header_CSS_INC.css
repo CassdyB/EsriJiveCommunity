@@ -178,31 +178,7 @@ button,
 	text-shadow: none !important;
 }
 
-button,
-input[type="reset"],
-input[type="submit"], 
-input[type="button"].j-btn-callout, 
-input[type="reset"].j-btn-callout, 
-input[type="submit"].j-btn-callout,
-button[data-submit-id="cancel"],
-input[type="button"][name="cancel"],
-input[name="cancel"],
-button[data-submit-id="draft"],
-.j-btn-callout,
-button.j-btn-callout, 
-button.j-btn-global, 
-#open-copy, 
-#reset-defaults, 
-#draftButton, 
-#jive-description, 
-#jive-widgetprops-cancel_2408,
-button.close.j-btn-global,
-input.close.j-button {
-	background: white !important;
-	border: 1px solid #ccc !important;
-	color: #777 !important;
-	font-weight: 300;
-}
+
 
 #submitButton,
 .j-btn-callout,
@@ -231,7 +207,33 @@ input[type="submit"].j-btn-callout:hover {
 	color: #fff !important;
 }
 
-
+button,
+input[type="reset"],
+input[type="submit"], 
+input[type="button"].j-btn-callout, 
+input[type="reset"].j-btn-callout, 
+input[type="submit"].j-btn-callout,
+button[data-submit-id="cancel"],
+input[type="button"][name="cancel"],
+input[name="cancel"],
+button[data-submit-id="draft"],
+.j-btn-callout,
+button.j-btn-callout, 
+button.j-btn-global, 
+#open-copy, 
+#reset-defaults, 
+#draftButton, 
+#jive-description, 
+#jive-widgetprops-cancel_2408,
+button.close.j-btn-global,
+input.close.j-button,
+.j-form-row #close,
+a.j-status-input-cancel.close {
+	background: white !important;
+	border: 1px solid #ccc !important;
+	color: #777 !important;
+	font-weight: 300;
+}
 
 
 input[type="reset"]:hover, 
@@ -245,7 +247,9 @@ input[type="submit"]:hover,
 #jive-description:hover,
 button.close.j-btn-global:hover,
 input.close.j-button:hover,
-#js-about-apply-browse:hover {
+#js-about-apply-browse:hover,
+.j-form-row #close:hover,
+.j-status-input-cancel.close:hover {
 	color: #007ac2 !important;
 }
 
@@ -295,7 +299,9 @@ input[type="submit"][disabled]:focus {
 
 /* Search Button on Send Message */
 .jive-chooser-browse.j-select-people,
-.jive-chooser-browse.j-select-people:hover {
+.jive-chooser-browse.j-select-people:hover,
+.j-status-input-actions .j-wall-meta-reference,
+.j-status-input-actions .j-wall-meta-reference:hover {
 	background-color: transparent !important;
 }
 

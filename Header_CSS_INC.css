@@ -372,10 +372,16 @@ div.j-pop-main {
 	/*width: 224px !important;*/
 	margin: 0 !important;
 }
-#j-footer {
-	display: none;
+#j-footer{
 	width: 960px;
 }
+
+.j-footer-nav {
+	display: none;
+
+}
+
+
 
 #j-pbj-act {
 	display: none;

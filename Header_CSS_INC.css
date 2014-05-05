@@ -216,7 +216,7 @@ button[type="button"].j-btn-callout,
 input[type="button"].j-btn-callout, 
 input[type="reset"].j-btn-callout,
 input[type="submit"].j-btn-callout {
-	background: #f89927 !important;
+	background: #5daddd !important;
 	color: #fff !important;
 	font-weight: 300;
 	border-style: none !important;
@@ -230,7 +230,7 @@ input[type="submit"].j-btn-callout {
 input[type="button"].j-btn-callout:hover, 
 input[type="reset"].j-btn-callout:hover, 
 input[type="submit"].j-btn-callout:hover {
-	background: #f36f20 !important;
+	background: #4997d2 !important;
 	color: #fff !important;
 }
 
@@ -265,7 +265,7 @@ button.j-btn-callout:hover,
 input[type="button"].j-btn-callout:hover, 
 input[type="reset"].j-btn-callout:hover, 
 input[type="submit"].j-btn-callout:hover {
-	background: #f36f20 !important;
+	background: #4997d2 !important;
 	color: #FFF !important;
 }
 

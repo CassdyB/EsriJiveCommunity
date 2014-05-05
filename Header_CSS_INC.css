@@ -188,6 +188,7 @@ input[type="submit"].j-btn-callout,
 button[data-submit-id="cancel"],
 input[type="button"][name="cancel"],
 input[name="cancel"],
+.j-panel-hide-rte-link.j-btn-global,
 button[data-submit-id="draft"],
 .j-btn-callout,
 button.j-btn-callout, 
@@ -247,11 +248,17 @@ input[type="submit"]:hover,
 #jive-description:hover,
 button.close.j-btn-global:hover,
 input.close.j-button:hover,
+.j-panel-hide-rte-link.j-btn-global:hover,
 .j-form-row #close:hover,
 .j-pop-row .close:hover,
 #js-about-apply-browse:hover {
 	color: #007ac2 !important;
 }
+
+.j-panel-hide-rte-link.j-btn-global:hover
+{background: white !important;}
+
+
 
 button.j-btn-callout:hover, 
 .j-btn-callout:hover, 

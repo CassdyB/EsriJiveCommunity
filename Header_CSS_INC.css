@@ -84,6 +84,9 @@ ul .j-nav-create .j-globalNavLink.active span.nav-link {
 }
 
 
+#jive-nav-link-help{
+	display: none!important;
+}
 
 
 /* Jive Body Content - Header */

@@ -39,7 +39,8 @@ body {
 	margin: 0 auto !important;
 	position: relative !important;
 	top: -44px !important;
-	width: 940px !important;
+	/*width: 940px !important;*/
+	width: 960px !important;
 }
 
 
@@ -61,8 +62,8 @@ li.j-globalNav-li.active {
 .j-globalNav li.j-globalNav-li {
 	line-height: 32px !important;
 }
-#j-globalNav > li.j-globalNav-li:first-child {
-  margin: 0;
+#j-globalNav li.j-globalNav-li:first-child {
+  margin: 0 !important;
 }
 
 ul.j-globalNav a:active, 

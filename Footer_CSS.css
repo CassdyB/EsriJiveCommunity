@@ -20,6 +20,7 @@
 	padding-left:17px;
 	width:960px;
 }
+
 /*-------------------------------------------------- */
 /* FOOTER LINKS */
 /*-------------------------------------------------- */
@@ -31,12 +32,14 @@
 	color:#000;
 	text-decoration:underline;
 }
+
 /*-------------------------------------------------- */
 /* FOOTER SMALL */
 /*-------------------------------------------------- */
 .footerSmall {
 	margin-top:0 !important;
 }
+
 /*-------------------------------------------------- */
 /* FOOTER HEAD */
 /*-------------------------------------------------- */
@@ -61,6 +64,7 @@
 #fatFooterHead .asocial strong {
 	color:#666;
 }
+
 /*-------------------------------------------------- */
 /* FOLLOW US LINKS */
 /*-------------------------------------------------- */
@@ -113,30 +117,32 @@
 #fatFooterHead .socialLinks a span {
 	display:none;
 }
+
 /*-------------------------------------------------- */
 /* Button Images */
 /*-------------------------------------------------- */
 .socialPlus {
-	background:url(http://www.esri.com/graphics/icons/socialmedia/plus_fat-footer_14.png) no-repeat 0 0;
+	background:url('http://www.esri.com/graphics/icons/socialmedia/plus_fat-footer_14.png') no-repeat 0 0;
 }
 .socialPinterest {
-	background:url(http://www.esri.com/graphics/icons/socialmedia/pinterest_fat-footer_14.png) no-repeat 0 0;
+	background:url('http://www.esri.com/graphics/icons/socialmedia/pinterest_fat-footer_14.png') no-repeat 0 0;
 }
 .socialEmail {
-	background:url(http://www.esri.com/graphics/icons/socialmedia/newsletter_fat-footer_14.png) no-repeat 0 0;
+	background:url('http://www.esri.com/graphics/icons/socialmedia/newsletter_fat-footer_14.png') no-repeat 0 0;
 }
 .socialTwitter {
-	background:url(http://www.esri.com/graphics/icons/socialmedia/twitter_fat-footer_14.png) no-repeat 0 0;
+	background:url('http://www.esri.com/graphics/icons/socialmedia/twitter_fat-footer_14.png') no-repeat 0 0;
 }
 .socialFacebook {
-	background:url(http://www.esri.com/graphics/icons/socialmedia/facebook_fat-footer_14.png) no-repeat 0 0;
+	background:url('http://www.esri.com/graphics/icons/socialmedia/facebook_fat-footer_14.png') no-repeat 0 0;
 }
 .socialLinkedIn {
-	background:url(http://www.esri.com/graphics/icons/socialmedia/linkedin_fat-footer_14.png) no-repeat 0 0;
+	background:url('http://www.esri.com/graphics/icons/socialmedia/linkedin_fat-footer_14.png') no-repeat 0 0;
 }
 .socialRss {
-	background:url(http://www.esri.com/graphics/icons/socialmedia/rss_fat-footer_14.png) no-repeat 0 0;
+	background:url('http://www.esri.com/graphics/icons/socialmedia/rss_fat-footer_14.png') no-repeat 0 0;
 }
+
 /*-------------------------------------------------- */
 /* FAT FOOTER LIST */
 /*-------------------------------------------------- */
@@ -171,15 +177,12 @@
 	margin:3px 0 3px -7px;
 }
 
-li
-{
-padding-left: 21px;
-
+li {
+  padding-left: 21px;
 }
 
-ul
-{
-list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
 #j-footer {

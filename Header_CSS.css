@@ -1,26 +1,28 @@
+/*-------------------------------------------------- */
+/* Esri Jive Global Header */
+/*-------------------------------------------------- */
 #esri-header {
-height: 175px;
-background: url('https://cloud.githubusercontent.com/assets/4120376/2713568/dfc92e04-c4e8-11e3-981e-c5c054499aa5.png') top center;
+  background: url('https://cloud.githubusercontent.com/assets/4120376/2713568/dfc92e04-c4e8-11e3-981e-c5c054499aa5.png') top center;
+  height: 175px;
 }
 
 #esri-title {
-font-size: 40px;
-font-weight: 300;
-color: #fff;
-font-family: 'Avenir LT W01 35 Light', Arial, Helvetica, sans-serif !important;
-
+  color: #fff;
+  font-family: 'Avenir LT W01 35 Light', Arial, Helvetica, sans-serif !important;
+  font-size: 40px;
+  font-weight: 300;
 }
 
 #e-header {
-width: 960px;
-margin: 0 auto;
-padding-top: 30px;
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 960px;
 }
 
 #e-nav-background {
- height: 45px;
- width: 100%;
- position: relative;
- background: rgba(255, 255, 255, .9);
- top:51px;
+  background: rgba(255, 255, 255, .9);
+  height: 45px;
+  position: relative;
+  top: 51px;
+  width: 100%;  
 }

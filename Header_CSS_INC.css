@@ -1,11 +1,20 @@
-/* Esri JIVE Community */
+/* ----------------------------------------------------
+
+  Esri JIVE Community                                                        
+
+  Updated on: 5/21/2014                   
+  Used on https://community.esri.com                
+  
+ --------------------------------------------------- */ 
 body {
 	padding: 0 !important;
 	width: 100% !important;
 	
 }
 
+/*-------------------------------------------------- */
 /* Esri Mega Menu */
+/*-------------------------------------------------- */
 #buildMegaMenu { height:85px; }
 #buildMegaMenu button {padding:0px !important;
 	-moz-box-shadow: 0 0px 0px rgba(0,0,0,.0) !important;
@@ -23,12 +32,11 @@ body {
 	margin: 5px !important;
 }
 
-
-
 #jive-nav-link-apps{ display: none; }
 
-
+/*-------------------------------------------------- */
 /* Jive Header */
+/*-------------------------------------------------- */
 #j-compact-header {
 	background: transparent !important;
 	z-index: 1 !important;
@@ -44,7 +52,9 @@ body {
 }
 
 
+/*-------------------------------------------------- */
 /* Jive Navigation */
+/*-------------------------------------------------- */
 #j-globalNav li.active .j-globalNavLink:hover  {
 	color: #fff !important; /* Question */
 }
@@ -91,8 +101,9 @@ ul .j-nav-create .j-globalNavLink.active span.nav-link {
 	display: none!important;
 }
 
-
+/*-------------------------------------------------- */
 /* Jive Body Content - Header */
+/*-------------------------------------------------- */
 .j-page-header .j-place-header-overlay {
 	background: none !important;
 	position: absolute;
@@ -165,9 +176,10 @@ ul .j-nav-create .j-globalNavLink.active span.nav-link {
 	padding-bottom: 0px !important;
 }
 
-
-/* buttons  */
+/*-------------------------------------------------- */
 /* JIVE RESET */
+/*-------------------------------------------------- */
+/* buttons  */
 /*a,*/
 input[type="reset"],
 input[type="submit"], 
@@ -231,7 +243,6 @@ input[type="submit"].j-btn-callout {
 	border-style: none !important;
 }
 
-
 #submitButton:hover,
 .j-btn-callout:hover,
 .j-btn-global:hover,
@@ -242,9 +253,6 @@ input[type="submit"].j-btn-callout:hover {
 	background: #4997d2 !important;
 	color: #fff !important;
 }
-
-
-
 
 input[type="reset"]:hover, 
 input[type="submit"]:hover,
@@ -264,10 +272,9 @@ input.close.j-button:hover,
 	color: #007ac2 !important;
 }
 
-.j-panel-hide-rte-link.j-btn-global:hover
-{background: white !important;}
-
-
+.j-panel-hide-rte-link.j-btn-global:hover {
+  background: white !important;
+}
 
 button.j-btn-callout:hover, 
 .j-btn-callout:hover, 
@@ -319,8 +326,9 @@ input[type="submit"][disabled]:focus {
 	background-color: transparent !important;
 }
 
-
+/*-------------------------------------------------- */
 /* Jive Popups */
+/*-------------------------------------------------- */
 .j-pop .j-menu li a:hover, 
 .j-pop .j-menu li a:focus:hover, 
 .j-pop .j-menu li a.j-selected:hover, 
@@ -408,7 +416,10 @@ div.j-pop-main {
 	text-shadow:none !important;
 }
 
+
+/*-------------------------------------------------- */
 /* Tags and Tag */
+/*-------------------------------------------------- */
 li.j-tags,
 li.j-tag {
 	background: #ddd !important;
@@ -420,8 +431,9 @@ li.j-tag:hover{
 	color: #fff !important;
 }
 
-
+/*-------------------------------------------------- */
 /* Space page design */
+/*-------------------------------------------------- */
 #jive-widgetframe_2720 {
 	margin-bottom: 0px !important;
 }
@@ -442,7 +454,9 @@ li.j-tag:hover{
 	border: none !important; 
 }
 
-/*  Boxes on Resilience page    */
+/*-------------------------------------------------- */
+/*  Boxes on Resilience page  */
+/*-------------------------------------------------- */
 #homecta-full .cta {
 	float: left;
 	width: 30%;

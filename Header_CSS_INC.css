@@ -39,7 +39,7 @@ body {
 	margin: 0 auto !important;
 	position: relative !important;
 	top: -44px !important;
-	width: 960px !important;
+	width: 940px !important;
 }
 
 
@@ -60,7 +60,9 @@ li.j-globalNav-li.active {
 }
 .j-globalNav li.j-globalNav-li {
 	line-height: 32px !important;
-
+}
+#j-globalNav > li.j-globalNav-li:first-child {
+  margin: 0;
 }
 
 ul.j-globalNav a:active, 
@@ -110,6 +112,9 @@ ul .j-nav-create .j-globalNavLink.active span.nav-link {
 
 
 /* Jive Body Content */
+.j-body-home .j-contained #jive-widget-container {
+  padding: 0;
+}
 #j-main {
 	width: 960px !important;
 	z-index: 0 !important;

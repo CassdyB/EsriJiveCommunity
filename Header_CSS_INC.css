@@ -533,8 +533,10 @@ div.cta.re_box1 {
 /* Places Breadcrumbs moved up and to the left */
 .j-placeHeaderWrap #jive-breadcrumb {
   position: relative;
-  top: -24px;
-  left: 45px;
+  top: 15px;
+}
+#jive-body header.j-page-header h1 {
+  top: 18px;
 }
 
 

@@ -2,7 +2,7 @@
 
   Esri JIVE Community                                                        
 
-  Updated on: 5/21/2014                   
+  Updated on: 5/30/2014                   
   Used on https://community.esri.com                
   
  --------------------------------------------------- */ 
@@ -18,6 +18,9 @@ body {
 #buildMegaMenu { height:85px; }
 #buildMegaMenu button {padding:0px !important;
 	-moz-box-shadow: 0 0px 0px rgba(0,0,0,.0) !important;
+}
+#homelink {
+  margin-left: 0 !important;
 }
 #megamenu-search-form button  {
 	border:none !important;
@@ -523,4 +526,42 @@ div.cta.re_box1 {
 
 .j-body-home #jive-alert {
 	margin-top: 0 !important;
+	margin-bottom: 20px !important;
+}
+
+/* Places Breadcrumbs moved up and to the left */
+.j-placeHeaderWrap #jive-breadcrumb {
+  position: relative;
+  top: -24px;
+  left: 45px;
+}
+
+
+/*-------------------------------------------------- */
+/* Esri Jive Global Header */
+/*-------------------------------------------------- */
+#esri-header {
+  background: url('https://cloud.githubusercontent.com/assets/4120376/2713568/dfc92e04-c4e8-11e3-981e-c5c054499aa5.png') top center;
+  height: 175px;
+}
+
+#esri-title {
+  color: #fff;
+  font-family: 'Avenir LT W01 35 Light', Arial, Helvetica, sans-serif !important;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#e-header {
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 960px;
+}
+
+#e-nav-background {
+  background: rgba(255, 255, 255, .9);
+  height: 45px;
+  position: relative;
+  top: 51px;
+  width: 100%;  
 }

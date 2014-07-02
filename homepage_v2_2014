@@ -1,0 +1,319 @@
+<script type="text/javascript" language="javascript">
+	// IDs for Jive Nav links
+	// Content: jive-nav-link-work
+	// People: jive-nav-link-conx
+	// Places: jive-nav-link-places
+	// Map: ????
+	// Community Help: customLink0
+	
+	if (window.jQuery) {
+		jQuery.ready(function() {
+			//$("#jive-nav-link-work").addClass("ecNavBarHighlight");
+			jQuery("#jive-nav-link-work").addClass("ecNavBarHighlight");
+		});
+	}
+	
+</script>
+
+<style>
+/* --------------------------------------------------------
+ *
+ *  Based on Centurion Framework v 3.4 - GRID ONLY (Last Updated: JH 2.25.14)
+ *  Created: FG 6.26.14
+ *  Updated: FG 6.30.14
+ *
+ * -------------------------------------------------------- */
+  
+.container_esri {
+  width: 100%;
+  margin: 0 auto;
+  font-size:12px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.container_esri .grid-25 {	
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 15px;
+  position: relative;
+  -webkit-transition: all .8s linear;
+  -moz-transition: all .8s linear;
+  -o-transition: all .8s linear;
+  transition: all .8s linear;
+}
+.container_esri .grid-25 { 
+	width: 25%;
+	padding: 0 5px;
+}
+.container_esri .grid-25.alpha { padding-left:0; }
+.container_esri .grid-25.omega { padding-right:0; }
+
+/* Top Boxes - START */
+.ec_main_top_boxes {
+	padding:5px 0 0 0;
+	margin:0;
+	display:block;
+	float:left;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.ec_main_top_box span.title {
+	color: #fff; /*#007AC2;*/
+	font-size: 1.714em;
+	font-weight: 300;
+	font-family: "Avenir LT W01 35 Light", Arial, Helvetica, sans-serif !important;
+	position: relative;
+	padding:0;
+	margin: 0.5em 0;
+	clear:right;
+	float:left;
+}
+.ec_main_top_box span.small {
+	color: #fff; /*#4D4D4D;*/
+	font-size: 1.071em !important;
+	line-height: 1.500em;
+	font-family: 'Avenir LT W01 35 Light', Arial, Helvetica, sans-serif;
+	padding: 2px 0 0 0;
+	margin: 0 0 10px 0;
+	clear:both;
+	float:left;
+}
+
+.ec_main_top_box a span.text_link {
+	color: #00d9ff; /*#4D4D4D;*/
+	font-size: 1.071em !important;
+	line-height: 1.0em;
+	font-family: 'Avenir LT W01 35 Light', Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	clear:both;
+	float:left;
+	display:block;
+	visibility:hidden;
+}
+	.ec_main_top_box a:hover span.text_link,
+	.ec_main_top_box a:focus span.text_link { visibility:visible; }
+
+.ec_main_top_box a {
+	padding:0;
+	margin:0;
+	display:block;
+	float:left;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.ec_main_top_box a.nolink { text-decoration:none; }
+
+	.ec_main_top_box a .ec_main_top_box_inner {
+		padding:1.45em 1.1em 1.75em 1.75em;
+		margin:0;
+		display:block;
+		float:left;
+	}
+
+.ec_main_top_box .box_icon {
+	width:35px;
+	height:35px;
+	display:inline-block;
+	clear:left;
+	float:left;
+	background-repeat:no-repeat;
+	/*background-image:url(master-sprite.png);*/
+	background-image:url("https://community.esri.com/resources/statics/3228/master-sprite.png");
+	padding:0;
+	margin:0 12px 0 0;
+	top:6px;
+	position:relative;
+}
+.ec_main_top_box .ec_main_top_box_tail {
+	width: 40px;
+	height: 40px;
+	display:inline-block;
+	clear:left;
+	float:left;
+	background-repeat:no-repeat;
+	/*background-image:url(master-sprite.png);*/
+	background-image:url("https://community.esri.com/resources/statics/3228/master-sprite.png");
+	float:right;
+	padding:0;
+	margin:0 25px 0 0;
+	position:relative;
+}
+	
+	/* Box 1 - Discuss */
+	.ec_main_top_box.ec_main_top_box_1_discuss a .ec_main_top_box_inner { background-color:#424952; }
+	.ec_main_top_box.ec_main_top_box_1_discuss a:hover .ec_main_top_box_inner,
+	.ec_main_top_box.ec_main_top_box_1_discuss a:focus .ec_main_top_box_inner { background-color:#2c363c; }
+	
+	.ec_main_top_box.ec_main_top_box_1_discuss .ec_main_top_box_tail { background-position:0px 0px; }
+	.ec_main_top_box.ec_main_top_box_1_discuss a:hover .ec_main_top_box_tail,
+	.ec_main_top_box.ec_main_top_box_1_discuss a:focus .ec_main_top_box_tail { background-position:0px -54px; }
+	.ec_main_top_box.ec_main_top_box_1_discuss .box_icon { 
+		background-position:0px -113px;
+		width:28px;
+	}
+	/* Box 2 - Connect */
+	.ec_main_top_box.ec_main_top_box_2_connect a .ec_main_top_box_inner { background-color:#3c6280; }
+	.ec_main_top_box.ec_main_top_box_2_connect a:hover .ec_main_top_box_inner,
+	.ec_main_top_box.ec_main_top_box_2_connect a:focus .ec_main_top_box_inner { background-color:#2e4b62; }
+	
+	.ec_main_top_box.ec_main_top_box_2_connect .ec_main_top_box_tail { background-position:-46px 0px; }
+	.ec_main_top_box.ec_main_top_box_2_connect a:hover .ec_main_top_box_tail,
+	.ec_main_top_box.ec_main_top_box_2_connect a:focus .ec_main_top_box_tail { background-position:-46px -54px; }
+	.ec_main_top_box.ec_main_top_box_2_connect .box_icon { 
+		background-position:-48px -111px;
+		width:28px;
+	}
+	/* Box 3 - Collaborate */ 
+	.ec_main_top_box.ec_main_top_box_3_collaborate a .ec_main_top_box_inner { background-color:#127bbf; }
+	.ec_main_top_box.ec_main_top_box_3_collaborate a:hover .ec_main_top_box_inner,
+	.ec_main_top_box.ec_main_top_box_3_collaborate a:focus .ec_main_top_box_inner { background-color:#0f669e; }
+	
+	.ec_main_top_box.ec_main_top_box_3_collaborate .ec_main_top_box_tail { background-position:-90px 0px; }
+	.ec_main_top_box.ec_main_top_box_3_collaborate a:hover .ec_main_top_box_tail,
+	.ec_main_top_box.ec_main_top_box_3_collaborate a:focus .ec_main_top_box_tail { background-position:-90px -54px; }
+	.ec_main_top_box.ec_main_top_box_3_collaborate .box_icon { 
+		background-position:-95px -111px;
+		width:35px;
+	}
+	/* Box 4 - Explore */
+	.ec_main_top_box.ec_main_top_box_4_explore a .ec_main_top_box_inner { background-color:#2f8fad; }
+	.ec_main_top_box.ec_main_top_box_4_explore a:hover .ec_main_top_box_inner,
+	.ec_main_top_box.ec_main_top_box_4_explore a:focus .ec_main_top_box_inner { background-color:#257087; }
+	
+	.ec_main_top_box.ec_main_top_box_4_explore .ec_main_top_box_tail { background-position:-135px 0px; }
+	.ec_main_top_box.ec_main_top_box_4_explore a:hover .ec_main_top_box_tail,
+	.ec_main_top_box.ec_main_top_box_4_explore a:focus .ec_main_top_box_tail { background-position:-135px -54px; }
+	.ec_main_top_box.ec_main_top_box_4_explore .box_icon { 
+		background-position:-150px -109px;
+		width:21px;
+	}
+
+/*-------------------------------------------------- */
+/* CLEARFIX */
+/*-------------------------------------------------- */
+/* slightly enhanced, universal clearfix hack */
+.container_esri .clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.container_esri .clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .container_esri .clearfix { height: 1%; }
+.container_esri .clearfix { display: block; }
+/* close commented backslash hack */
+
+</style>
+
+<div class="container_esri ec_main_top_boxes">
+    <div class="grid-25 alpha first">
+        <div class="ec_main_top_box ec_main_top_box_1_discuss clearfix">
+            <a href="#" class="nolink">
+            	<span class="ec_main_top_box_inner">
+                    <span class="box_icon"></span>                    
+                    <span class="title">Discuss</span>
+                    
+                    <span class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                    
+                    <span class="text_link">Browse Content &rarr;</span>
+            	</span>
+           		<span class="ec_main_top_box_tail"></span>
+            </a>
+        </div>
+    </div>     
+    <div class="grid-25">
+        <div class="ec_main_top_box ec_main_top_box_2_connect clearfix">
+            <a href="#" class="nolink">
+            	<span class="ec_main_top_box_inner">
+                    <span class="box_icon"></span>                    
+                    <span class="title">Connect</span>
+                    
+                    <span class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                    
+                    <span class="text_link">Browse People &rarr;</span>
+            	</span>
+           		<span class="ec_main_top_box_tail"></span>
+            </a>
+        </div>
+    </div>  
+    <div class="grid-25">
+        <div class="ec_main_top_box ec_main_top_box_3_collaborate clearfix">
+            <a href="#" class="nolink">
+            	<span class="ec_main_top_box_inner">
+                    <span class="box_icon"></span>                    
+                    <span class="title">Collaborate</span>
+                    
+                    <span class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                    
+                    <span class="text_link">Browse Places &rarr;</span>
+            	</span>
+           		<span class="ec_main_top_box_tail"></span>
+            </a>
+        </div>
+    </div>  
+    <div class="grid-25 omega last">
+        <div class="ec_main_top_box ec_main_top_box_4_explore last clearfix">
+            <a href="#" class="nolink">
+            	<span class="ec_main_top_box_inner">
+                    <span class="box_icon"></span>                    
+                    <span class="title">Explore</span>
+                    
+                    <span class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                    
+                    <span class="text_link">Browse GeoNet Map &rarr;</span>
+            	</span>
+           		<span class="ec_main_top_box_tail"></span>
+            </a>
+        </div>
+    </div>
+
+  <div class="clear"></div>
+</div>
